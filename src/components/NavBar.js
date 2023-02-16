@@ -1,10 +1,5 @@
 import React from 'react'
-import {
-  BrowserRouter as Router,
-  Switch,
-  Route,
-  Link
-} from "react-router-dom";
+
 import {FaHatWizard} from 'react-icons/fa'
 import {BiHomeCircle} from 'react-icons/bi'
 import {TbNotification} from 'react-icons/tb'
@@ -14,9 +9,7 @@ import rownok from '../assets/rownok.png'
 import { Dialog, Transition } from "@headlessui/react";
 import { Fragment, useState } from "react";
 import PostCreate from './PostCreate'
-import SignUp from './SignUp';
-import Content from './Content';
-import SuggestedContent from './SuggestedContent';
+import SignIn from './SignIn';
 const NavBar = () => {
     let [isOpen, setIsOpen] = useState(false);
     let [isSignUp, setSignUp] = useState(false);
@@ -131,7 +124,7 @@ const NavBar = () => {
                     leaveTo="opacity-0 scale-95"
                   >
                     <Dialog.Panel className="w-full max-w-md flex justify-center items-center transform overflow-hidden rounded-2xl bg-white text-left align-middle shadow-xl transition-all">
-                    <SignUp/>
+                    <SignIn/>
                    
                     </Dialog.Panel>
                   </Transition.Child>
