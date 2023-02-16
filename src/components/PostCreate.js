@@ -110,7 +110,7 @@ const PostCreate = () => {
           <RiFileGifFill className="text-3xl cursor-pointer" />
           <FiSmile className="text-3xl cursor-pointer" />
         </div>
-        <button className="btn btn-sm btn-primary capitalize">Create Post</button>
+        <button className="btn btn-sm btn-primary capitalize rounded-full">Create Post</button>
       </div>
     </div>
   );
