@@ -13,6 +13,13 @@ module.exports = {
         "2xl": "4rem",
       },
     },
+    fontFamily: {
+      monoton:["Monoton", "cursive"],
+      satoshi:['Satoshi', 'sans-serif'],
+      clash:['Clash Display', 'sans-serif'],
+      infinite: ["Outfit", "sans-serif"],
+      bebasneo: ['Bebas Neue', 'cursive'],
+    },
     extend: {
       boxShadow: {
         "3xl": "-1px 34px 47px -29px rgb(32 32 32 / 100%)",
