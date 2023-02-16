@@ -4,12 +4,11 @@ import {BiHomeCircle} from 'react-icons/bi'
 import {TbNotification} from 'react-icons/tb'
 import {CgProfile} from 'react-icons/cg'
 import {HiHashtag} from 'react-icons/hi'
-
 import rownok from '../assets/rownok.png'
 const NavBar = () => {
   return (
     <div className='relative'>
-     <div className='flex flex-col justify-start mt-10 h-[650px] sticky left-14 top-0 items-start gap-7'>
+     <div className='flex flex-col justify-start mt-10 h-[650px] sticky left-0 top-0 items-start gap-7'>
         <FaHatWizard className='text-3xl'/>
         <div className="flex items-center gap-2 cursor-pointer">
             <BiHomeCircle className='text-3xl'/>

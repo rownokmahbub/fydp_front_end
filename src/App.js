@@ -8,8 +8,8 @@ function App() {
   return (
     <>
     <div className='container mx-auto flex gap-10 justify-center'>
-    <NavBar/>
-    <Content/>
+    <NavBar />
+    <Content />
     <SuggestedContent />
     
     </div>
